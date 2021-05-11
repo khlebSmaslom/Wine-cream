@@ -1,0 +1,104 @@
+.navbar-custom-color {
+    background-color: #FF69B4 !important;
+}
+.nav-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+@media (max-width: 1200px) {
+    .nav-item:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+.navbar-brand {
+    font-family: 'Grandstander', cursive;
+font-family: 'Playfair Display', serif;
+font-size: xx-large;
+}
+.navbar-nav {
+    font-family: 'Arimo', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Grandstander', cursive;
+font-family: 'Playfair Display', serif;
+
+}
+
+.navbar-nav a:hover {
+    background-color: #be7edb;
+    
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    text-shadow: 1px 1px 7px #000;
+}
+
+.btn.btn-outline-dark.btn-lg {
+    background-color:#dd9ebe9c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(219, 144, 207, 0.411);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #da7db0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #e06eb5;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: rgba(247, 178, 215, 0.288);
+    padding: 10px;
+    border-color: #ff69b4da;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

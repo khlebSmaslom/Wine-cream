@@ -1,0 +1,72 @@
+.navbar-custom-color {
+    background-color: #FF69B4 !important;
+}
+.nav-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+@media (max-width: 1200px) {
+    .nav-item:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+.navbar-brand {
+    font-family: 'Grandstander', cursive;
+font-family: 'Playfair Display', serif;
+font-size: xx-large;
+}
+.navbar-nav {
+    font-family: 'Arimo', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Grandstander', cursive;
+font-family: 'Playfair Display', serif;
+
+}
+
+.navbar-nav a:hover {
+    background-color: #be7edb;
+    
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    text-shadow: 1px 1px 7px #000;
+}
+
+.btn.btn-outline-dark.btn-lg {
+    background-color:#dd9ebe9c;
+}
+
+.accordion {
+    background-color: rgb(245, 164, 204);
+    color: rgb(24, 14, 14);
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    
+}
+
+.active, .accordion:hover {
+    background-color: #be7edb; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}

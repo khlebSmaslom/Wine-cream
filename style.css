@@ -1,0 +1,68 @@
+.navbar-custom-color {
+    background-color: #FF69B4 !important;
+}
+.nav-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+@media (max-width: 1200px) {
+    .nav-item:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+.navbar-brand {
+    font-family: 'Grandstander', cursive;
+font-family: 'Playfair Display', serif;
+font-size: xx-large;
+}
+.navbar-nav {
+    font-family: 'Arimo', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Grandstander', cursive;
+font-family: 'Playfair Display', serif;
+
+}
+
+.navbar-nav a:hover {
+    background-color: #be7edb;
+    
+}
+
+.btn-outline-dark {
+    color: #0d0e0f;
+    background-color: transparent;
+    background-image: none;
+    border-color: #343a40;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    text-shadow: 1px 1px 7px #000;
+}
+
+.btn.btn-outline-dark.btn-lg {
+    background-color:#dd9ebe9c;
+}
+
+.footer {
+    padding: 10px; /* Some padding */
+    text-align: center; /* Center text*/
+    background-color: #FF69B4;
+}
+
+.bg-light {
+background-color: #FF69B4;
+}
+
+a {
+color:black
+}
+

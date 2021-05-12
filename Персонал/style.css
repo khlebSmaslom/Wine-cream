@@ -1,3 +1,10 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    font-family: 'Domine', serif;
+font-family: 'Merriweather Sans', sans-serif;
+}
 .navbar-custom-color {
     background-color: #FF69B4 !important;
 }
@@ -26,4 +33,33 @@ font-family: 'Playfair Display', serif;
 .navbar-nav a:hover {
     background-color: #be7edb;
     
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Domine', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 10px;
+    font-size: 21px;
+    text-align-last:auto;
+  }
+
+h1 {
+    font-family: 'Domine', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: palevioletred;
+}
+
+.car-text {
+    font-family: 'Domine', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.card-title {
+    text-decoration:underline;
+    text-decoration-color: palevioletred;
+    font-weight:bold;
+
 }

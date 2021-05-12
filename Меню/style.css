@@ -31,6 +31,10 @@ font-family: 'Playfair Display', serif;
 p {
     margin-top: 0;
     margin-bottom: 1rem;
+    font-family: 'Domine', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 5px;
+    font-size: 21px;
   }
 
 .carousel-inner img {
@@ -60,7 +64,27 @@ a {
 color:black
 }
 
+h1 {
+  font-family: 'Domine', serif;
+  font-family: 'Merriweather Sans', sans-serif;
+}
 
+h6{
+  font-family: 'Domine', serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight:500;
+
+}
+h2 {
+  font-family: 'Domine', serif;
+  font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.modal-title {
+  font-family: 'Domine', serif;
+font-family: 'Merriweather Sans', sans-serif;
+}
     /*
     * @subsection Shop
     */

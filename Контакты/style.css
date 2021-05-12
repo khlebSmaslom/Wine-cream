@@ -31,6 +31,17 @@ font-family: 'Playfair Display', serif;
 p {
     margin-top: 0;
     margin-bottom: 1rem;
+    font-family: 'Domine', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 10px;
+    font-size: 21px;
+  }
+
+  h2 {
+    font-family: 'Domine', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: palevioletred;
   }
 
 .carousel-inner img {

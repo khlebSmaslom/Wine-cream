@@ -37,4 +37,19 @@ font-family: 'Playfair Display', serif;
     text-shadow: 1px 1px 7px #000;
 }
 
+h1 {
+    font-family: 'Domine', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: palevioletred;
+  }
 
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Domine', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 10px;
+    border-color: hotpink;
+    font-size: 21px;
+  }
